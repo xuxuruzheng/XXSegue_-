@@ -13,6 +13,16 @@
 		A9C36B741FB467BE00BE2306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C36B731FB467BE00BE2306 /* Assets.xcassets */; };
 		A9C36B771FB467BE00BE2306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C36B751FB467BE00BE2306 /* LaunchScreen.storyboard */; };
 		A9C36B7A1FB467BE00BE2306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B791FB467BE00BE2306 /* main.m */; };
+		A9C36B901FB4680A00BE2306 /* ScangreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B811FB4680600BE2306 /* ScangreenViewController.m */; };
+		A9C36B911FB4680A00BE2306 /* OrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B831FB4680600BE2306 /* OrangeViewController.m */; };
+		A9C36B921FB4680A00BE2306 /* PushYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B841FB4680700BE2306 /* PushYellowViewController.m */; };
+		A9C36B931FB4680A00BE2306 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B861FB4680700BE2306 /* PushViewController.m */; };
+		A9C36B941FB4680A00BE2306 /* PresentMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B891FB4680800BE2306 /* PresentMViewController.m */; };
+		A9C36B951FB4680A00BE2306 /* ShowDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B8D1FB4680900BE2306 /* ShowDetailViewController.m */; };
+		A9C36B961FB4680A00BE2306 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B8E1FB4680900BE2306 /* PresentViewController.m */; };
+		A9C36B971FB4680A00BE2306 /* SugueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B8F1FB4680900BE2306 /* SugueViewController.m */; };
+		A9C36B9B1FB4685900BE2306 /* ScanStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B991FB4685800BE2306 /* ScanStoryboardSegue.m */; };
+		A9C36B9E1FB4686B00BE2306 /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C36B9D1FB4686B00BE2306 /* UIView+Constraint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		A9C36B761FB467BE00BE2306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C36B781FB467BE00BE2306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9C36B791FB467BE00BE2306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C36B801FB4680600BE2306 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		A9C36B811FB4680600BE2306 /* ScangreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScangreenViewController.m; sourceTree = "<group>"; };
+		A9C36B821FB4680600BE2306 /* SugueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugueViewController.h; sourceTree = "<group>"; };
+		A9C36B831FB4680600BE2306 /* OrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeViewController.m; sourceTree = "<group>"; };
+		A9C36B841FB4680700BE2306 /* PushYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushYellowViewController.m; sourceTree = "<group>"; };
+		A9C36B851FB4680700BE2306 /* ScangreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScangreenViewController.h; sourceTree = "<group>"; };
+		A9C36B861FB4680700BE2306 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		A9C36B871FB4680700BE2306 /* PushYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushYellowViewController.h; sourceTree = "<group>"; };
+		A9C36B881FB4680800BE2306 /* PresentMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentMViewController.h; sourceTree = "<group>"; };
+		A9C36B891FB4680800BE2306 /* PresentMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentMViewController.m; sourceTree = "<group>"; };
+		A9C36B8A1FB4680800BE2306 /* ShowDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowDetailViewController.h; sourceTree = "<group>"; };
+		A9C36B8B1FB4680800BE2306 /* OrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeViewController.h; sourceTree = "<group>"; };
+		A9C36B8C1FB4680900BE2306 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		A9C36B8D1FB4680900BE2306 /* ShowDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowDetailViewController.m; sourceTree = "<group>"; };
+		A9C36B8E1FB4680900BE2306 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		A9C36B8F1FB4680900BE2306 /* SugueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugueViewController.m; sourceTree = "<group>"; };
+		A9C36B991FB4685800BE2306 /* ScanStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanStoryboardSegue.m; sourceTree = "<group>"; };
+		A9C36B9A1FB4685800BE2306 /* ScanStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanStoryboardSegue.h; sourceTree = "<group>"; };
+		A9C36B9C1FB4686B00BE2306 /* UIView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Constraint.h"; sourceTree = "<group>"; };
+		A9C36B9D1FB4686B00BE2306 /* UIView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Constraint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +88,29 @@
 		A9C36B691FB467BE00BE2306 /* XXSegue_跳转 */ = {
 			isa = PBXGroup;
 			children = (
+				A9C36B9C1FB4686B00BE2306 /* UIView+Constraint.h */,
+				A9C36B9D1FB4686B00BE2306 /* UIView+Constraint.m */,
+				A9C36B981FB4685800BE2306 /* Segue */,
 				A9C36B6A1FB467BE00BE2306 /* AppDelegate.h */,
 				A9C36B6B1FB467BE00BE2306 /* AppDelegate.m */,
 				A9C36B6D1FB467BE00BE2306 /* ViewController.h */,
 				A9C36B6E1FB467BE00BE2306 /* ViewController.m */,
+				A9C36B821FB4680600BE2306 /* SugueViewController.h */,
+				A9C36B8F1FB4680900BE2306 /* SugueViewController.m */,
+				A9C36B871FB4680700BE2306 /* PushYellowViewController.h */,
+				A9C36B841FB4680700BE2306 /* PushYellowViewController.m */,
+				A9C36B8A1FB4680800BE2306 /* ShowDetailViewController.h */,
+				A9C36B8D1FB4680900BE2306 /* ShowDetailViewController.m */,
+				A9C36B881FB4680800BE2306 /* PresentMViewController.h */,
+				A9C36B891FB4680800BE2306 /* PresentMViewController.m */,
+				A9C36B851FB4680700BE2306 /* ScangreenViewController.h */,
+				A9C36B811FB4680600BE2306 /* ScangreenViewController.m */,
+				A9C36B8C1FB4680900BE2306 /* PushViewController.h */,
+				A9C36B861FB4680700BE2306 /* PushViewController.m */,
+				A9C36B801FB4680600BE2306 /* PresentViewController.h */,
+				A9C36B8E1FB4680900BE2306 /* PresentViewController.m */,
+				A9C36B8B1FB4680800BE2306 /* OrangeViewController.h */,
+				A9C36B831FB4680600BE2306 /* OrangeViewController.m */,
 				A9C36B701FB467BE00BE2306 /* Main.storyboard */,
 				A9C36B731FB467BE00BE2306 /* Assets.xcassets */,
 				A9C36B751FB467BE00BE2306 /* LaunchScreen.storyboard */,
@@ -69,6 +118,15 @@
 				A9C36B791FB467BE00BE2306 /* main.m */,
 			);
 			path = "XXSegue_跳转";
+			sourceTree = "<group>";
+		};
+		A9C36B981FB4685800BE2306 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				A9C36B9A1FB4685800BE2306 /* ScanStoryboardSegue.h */,
+				A9C36B991FB4685800BE2306 /* ScanStoryboardSegue.m */,
+			);
+			path = Segue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C36B961FB4680A00BE2306 /* PresentViewController.m in Sources */,
+				A9C36B941FB4680A00BE2306 /* PresentMViewController.m in Sources */,
+				A9C36B911FB4680A00BE2306 /* OrangeViewController.m in Sources */,
+				A9C36B9B1FB4685900BE2306 /* ScanStoryboardSegue.m in Sources */,
+				A9C36B9E1FB4686B00BE2306 /* UIView+Constraint.m in Sources */,
 				A9C36B6F1FB467BE00BE2306 /* ViewController.m in Sources */,
+				A9C36B901FB4680A00BE2306 /* ScangreenViewController.m in Sources */,
+				A9C36B971FB4680A00BE2306 /* SugueViewController.m in Sources */,
+				A9C36B951FB4680A00BE2306 /* ShowDetailViewController.m in Sources */,
 				A9C36B7A1FB467BE00BE2306 /* main.m in Sources */,
+				A9C36B921FB4680A00BE2306 /* PushYellowViewController.m in Sources */,
+				A9C36B931FB4680A00BE2306 /* PushViewController.m in Sources */,
 				A9C36B6C1FB467BE00BE2306 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
